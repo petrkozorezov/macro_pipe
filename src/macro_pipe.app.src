@@ -1,0 +1,13 @@
+{application, macro_pipe, [
+    {description, "Pipe on steroids implemented as a macro"},
+    {vsn, git},
+    {registered, []},
+    {env, []},
+    {applications, [
+        kernel,
+        stdlib,
+        astranaut
+    ]},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/petrkozorezov/macro_pipe"}]}
+]}.
